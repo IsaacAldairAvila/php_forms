@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    width: 70%;
+    height: 70%;
+    margin: auto;
+    border: 1px solid #d1d1d1;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+}
+
+#customers td,
+#customers th {
+
+    padding: 8px;
+    border: none;
+    margin: 0;
+}
+
+#customers tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#customers tr:hover {
+    background-color: #ddd;
+}
+
+#customers th {
+    border: 0;
+    margin: 0;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #04AA6D;
+    color: white;
+}
+
+input[type=text] {
+    width: 300px;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #1d1d1d;
+}
+
+input[type=submit] {
+    width: 200px;
+    margin: 5px;
+    padding: 5px;
+    background-color: #04AA6D;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+
+h1{
+    font-size: 20px;
+}
+
+.items{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+table{
+    width: 300px;
+    border: 1px solid #1d1d1d;
+    border-radius: 5px;
+}
+
+.nota{
+    display: flex;
+    flex-direction: row;
+    width: 300px;
+}
+
+.input{
+    width: 200px;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+p{
+    width: 100px;
+}
+
+.getnotas{
+    width: 300px;
+    padding: 20px;
+}
